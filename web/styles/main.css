@@ -1,0 +1,110 @@
+body {
+	background: #999;
+	font-family: arial;
+	text-align: center;
+	background-image: url(Images/Logo-empoule.png);
+	background-repeat: no-repeat;
+}
+
+h1,h2 {
+	color: #555;
+}
+
+ul {
+	display: inline-block;
+	border: 3px solid #555;
+	background: #555;
+	width: 80%;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	width: 30%;
+}
+
+a {
+	display: block;
+	color: red;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+	background: white;
+	color: black;
+}
+
+#center {
+	display: inline-block;
+	border: 3px solid #555;
+	background: #555;
+	width: 80%;
+	padding: 10px;
+}
+
+table {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#Image1 {
+	background-image: url(Images/partage.png);
+	background-repeat: no-repeat;
+	width: 40%;
+	margin: auto;
+}
+
+#Image2 {
+	background-image: url(Images/plugin-image.png);
+	background-repeat: no-repeat;
+	width: 45%;
+	margin: auto;
+}
+
+p {
+	text-align: left;
+	color: white;
+}
+
+.button-container p {
+	margin-top: 10px;
+}
+
+.button-container a {
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.button-container {
+	min-height: 10%;
+	margin-top: 10%;
+	text-align: center;
+}
+
+a.button {
+	display: inline-block;
+	color: #FFF;
+	background-color: #33FF66;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-color: #008080;
+	border-bottom-width: 3px;
+	margin: 0% 0% 10% 25%;
+}
+
+a.button:hover {
+	background-color: #336699;
+	border-color: #444;
+}
+
+a.button:active {
+	background-color: #699DB6;
+	border-color: red;
+}
